@@ -137,6 +137,9 @@ def main():
             
             # Move to next player's turn
             gameData = updateTurn(gameData)
+        else:
+            print("game over")
+            return 0
 
     print(f'{winner} has won the game!! Congratulations!')
 
