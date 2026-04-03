@@ -1,7 +1,7 @@
 Turn: Player1
 1: Player1
 1: Player2
-12: Treasure
-18: Trap
-1: Player3
-27: Heal
+12: Drink caffeine
+8: Hopped on a lime scooter 
+5: Behind slow walker
+17: Missed a shuttle

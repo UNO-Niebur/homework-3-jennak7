@@ -1,0 +1,18 @@
+Instructions: 
+Hello! This is a two player board game in which the aim is to get to class before the other player. Player 1 will start their turn first. Each turn is a random dice roll that automatically moves your player's position. The updated positions of the players will be displayed after each turn. The left side of the ":" displays the position.
+
+There are four different chance events that change player position if a player lands on the set space. Drinking caffeine (position 12) moves player 2 spaces forward. Hopping on a lime scooter (position 8) moves player forward 5 spaces. Getting stuck behind a slow walker (position 5) moves player 1 space behind. Missing a shuttle (position 17) moves player 6 spaces behind. 
+
+The only route to class is 30 spaces forward and whichever player reaches position 30 first wins!
+
+
+Data Storage:
+Data is continually updated in a list of positions in the main() under gameData. 
+
+Functions used: 
+loadGameData
+displayGame
+updateTurn
+movePlayer
+checkPosition
+checkWin 
